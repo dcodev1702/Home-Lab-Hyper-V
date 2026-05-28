@@ -118,19 +118,16 @@
       <circle cx="6" cy="20.5" r="1.4" fill="#b660ff"/>
       <circle cx="6" cy="35.5" r="1.4" fill="#b660ff"/>
     </g>
-    <text x="76" y="42" fill="#e8eef7" font-size="17" font-weight="700">Server 2025</text>
+    <text x="76" y="42" fill="#e8eef7" font-size="17" font-weight="700">Server Core 2025</text>
     <text x="76" y="62" fill="#b660ff" font-size="12" letter-spacing="1.5" font-weight="600">DOMAIN CONTROLLER</text>
     <line x1="22" y1="86" x2="264" y2="86" stroke="#2a3450"/>
     <text x="22" y="108" fill="#94a3b8" font-size="11" letter-spacing="1.2">ROLE</text>
     <text x="22" y="126" fill="#cbd5e1" font-size="13">AD DS · DNS · DHCP · CA</text>
     <text x="22" y="158" fill="#94a3b8" font-size="11" letter-spacing="1.2">SOFTWARE</text>
     <g font-size="12.5" fill="#e2e8f0">
-      <g transform="translate(22,178)"><circle cx="4" cy="-3.5" r="3" fill="#b660ff"/><text x="14" y="0">Windows Server 2025</text></g>
+      <g transform="translate(22,178)"><circle cx="4" cy="-3.5" r="3" fill="#b660ff"/><text x="14" y="0">Windows Server Core 2025</text></g>
       <g transform="translate(22,200)"><circle cx="4" cy="-3.5" r="3" fill="#b660ff"/><text x="14" y="0">PowerShell 7</text></g>
       <g transform="translate(22,222)"><circle cx="4" cy="-3.5" r="3" fill="#b660ff"/><text x="14" y="0">Azure CLI</text></g>
-      <g transform="translate(22,244)"><circle cx="4" cy="-3.5" r="3" fill="#b660ff"/><text x="14" y="0">VS Code</text></g>
-      <g transform="translate(22,266)"><circle cx="4" cy="-3.5" r="3" fill="#b660ff"/><text x="14" y="0">Node.js</text></g>
-      <g transform="translate(22,288)"><circle cx="4" cy="-3.5" r="3" fill="#b660ff"/><text x="14" y="0">Python 3.13</text></g>
     </g>
     <text x="22" y="324" fill="#94a3b8" font-size="11" letter-spacing="1.2">AZ CLI EXTENSIONS</text>
     <g font-size="11.5" fill="#cbd5e1">
@@ -177,7 +174,7 @@
       <g transform="translate(22,200)"><circle cx="4" cy="-3.5" r="3" fill="#00d4ff"/><text x="14" y="0">PowerShell 7</text></g>
       <g transform="translate(22,222)"><circle cx="4" cy="-3.5" r="3" fill="#00d4ff"/><text x="14" y="0">Azure CLI</text></g>
       <g transform="translate(22,244)"><circle cx="4" cy="-3.5" r="3" fill="#00d4ff"/><text x="14" y="0">VS Code</text></g>
-      <g transform="translate(22,266)"><circle cx="4" cy="-3.5" r="3" fill="#00d4ff"/><text x="14" y="0">Node.js</text></g>
+      <g transform="translate(22,266)"><circle cx="4" cy="-3.5" r="3" fill="#00d4ff"/><text x="14" y="0">RSAT (remote admin)</text></g>
       <g transform="translate(22,288)"><circle cx="4" cy="-3.5" r="3" fill="#00d4ff"/><text x="14" y="0">Python 3.13</text></g>
     </g>
     <text x="22" y="324" fill="#94a3b8" font-size="11" letter-spacing="1.2">AZ CLI EXTENSIONS</text>
@@ -350,7 +347,7 @@
 
   <!-- ============= VM -> vSwitch lines ============= -->
   <g stroke="#00d4ff" stroke-width="1.5" opacity="0.55" fill="none" stroke-dasharray="4 4">
-    <path d="M203 820 V880" stroke="#b660ff" stroke-width="2.5" stroke-dasharray="0" opacity="0.9" filter="url(#softGlow)"/>
+    <path d="M203 820 V880" stroke="#b660ff" stroke-width="2" stroke-dasharray="4 4" opacity="0.75"/>
     <path d="M509 820 V880"/>
     <path d="M815 820 V880"/>
     <path d="M1121 820 V880"/>
