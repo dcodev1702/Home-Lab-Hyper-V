@@ -1,0 +1,18 @@
+# Local provisioning output
+logs/
+reports/
+templates/
+
+# Hyper-V and install media artifacts
+*.vhd
+*.vhdx
+*.avhd
+*.avhdx
+*.iso
+*.vmcx
+*.vmrs
+
+# Editor and OS noise
+.vscode/
+Thumbs.db
+desktop.ini
