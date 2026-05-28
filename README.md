@@ -37,8 +37,8 @@ Enable WSL and the virtualization platform inside Windows 11 lab VMs:
 ```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -All
 Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -All
-wsl --install -d Ubuntu-24.04
 wsl --set-default-version 2
+wsl --install -d Ubuntu-24.04
 ```
 
 Install `gh` as the GitHub CLI. It is listed next to Azure CLI tooling because it is part of the lab command-line baseline, not because it is an Azure CLI extension.
